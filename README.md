@@ -5,10 +5,12 @@ The notebooks in this repo build an A2C from scratch in PyTorch, starting with a
 Notebooks:
 1) Monte Carlo A2C
 2) Adding N-Step
-3) A simplified version of 2a used for teaching purposes. Compliment to comic (show link).
+3) Code walk-through TUTORIAL: A simplified version of 2a used for teaching purposes. Compliment to comic. 
 4) Adding in multiple actors
 5) Allowing model to take in a stack of "frames" rather that single frame. This in preparation for next step when we add in stack of frames from raw pixels.
-6) Transitioning to raw pixel input. Changing FC NN to CNN.
+6) Transitioning to raw pixel input. Changing FC NN to CNN. Takes hours on p2x large rather than seconds on laptop to train.
+
+0) MC A2C which is also trained to predict its own next state and reward. Currently being used for experiments in transfer learning, prediction, data generation. If a model can predict its own future states, can it use this predictor to generate data for "mental training"?
 
 For a deeper dive in deep RL, these are my favorite resources:
 
